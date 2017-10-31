@@ -5,4 +5,8 @@ package com.accp.pojo;
  */
 public class Student {
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
